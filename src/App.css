@@ -1,0 +1,92 @@
+.app-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 24px;
+  background-color: #f8f8f8;
+}
+
+.app-heading {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.task-form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.task-input {
+  flex-grow: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-task-button {
+  margin-left: 8px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-task-button:hover {
+  background-color: #0056b3;
+}
+
+.add-task-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5);
+}
+
+.filter-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.filter-label {
+  margin-right: 8px;
+}
+
+.filter-select {
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.task-item.completed {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+.task-item input[type='checkbox'] {
+  margin-right: 8px;
+}
+
+.task-item button {
+  margin-left: 8px;
+  padding: 4px 8px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.task-item button:hover {
+  background-color: #c82333;
+}
+
+.task-item button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(220, 53, 69, 0.5);
+}

@@ -1,0 +1,25 @@
+.task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    background-color: #f8f8f8;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .task-title {
+    flex-grow: 1;
+    margin-left: 8px;
+  }
+  
+  .delete-button {
+    font-weight: bold;
+    color: #cc0000;
+    margin-left: 8px;
+  }
+  

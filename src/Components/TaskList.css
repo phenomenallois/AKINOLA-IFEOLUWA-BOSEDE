@@ -1,0 +1,43 @@
+.task-list-container {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 16px;
+  }
+  
+  .filter-container {
+    margin-bottom: 8px;
+  }
+  
+  .filter-select {
+    padding: 4px;
+    font-size: 14px;
+  }
+  
+  .task-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .task-items li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .task-items li .task-checkbox {
+    margin-right: 8px;
+  }
+  
+  .task-items li .task-title {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .task-items li .task-delete {
+    font-weight: bold;
+    color: #777;
+    margin-left: 10px;
+  }
+  
