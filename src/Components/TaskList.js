@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import TaskItem from './Components/TaskItem';
-
+import "./TaskList.css";
 const TaskList = ({ tasks, deleteTask }) => {
   const [filter, setFilter] = useState('all');
 

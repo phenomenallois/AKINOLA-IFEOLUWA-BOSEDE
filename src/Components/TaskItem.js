@@ -1,5 +1,5 @@
 import React from 'react';
-
+import "./TaskItem.css";
 const TaskItem = ({ task, deleteTask }) => {
   const handleCheckboxChange = () => {
     // Toggle the completed property of the task object
